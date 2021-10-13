@@ -2,7 +2,7 @@ chrome.alarms.onAlarm.addListener(function() {
   chrome.browserAction.setBadgeText({text: ''});
   const options = {
     type:     'basic',
-    iconUrl:  'water128.png',
+    iconUrl:  'images/water128.png',
     title:    'Sip Station',
     message:  'Drink water!',
     requireInteraction: true,
@@ -14,7 +14,7 @@ chrome.alarms.onAlarm.addListener(function() {
 
   chrome.notifications.create(options)
   chrome.storage.sync.get(['minutes'], function(item) {
-    chrome.browserAction.setBadgeText({ text: '' });
+    chrome.browserAction.setBadgeText({ text: 'ON' });
     chrome.alarms.create({ delayInMinutes: item.minutes });
   });
 });
