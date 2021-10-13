@@ -13,9 +13,9 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "water16.png",
-    "32": "water32.png",
-    "64": "water64.png",
-    "128": "water128.png"
+    "16": "images/water16.png",
+    "32": "images/water32.png",
+    "64": "images/water64.png",
+    "128": "images/water128.png"
   }
 }
