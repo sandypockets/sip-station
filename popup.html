@@ -1,9 +1,23 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="popup.css">
+    <title>Sip Station</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./popup.css">
   </head>
   <body>
-    <button id="btn">A button</button>
+    <img src='./water-drop256.png' id='heroimage'>
+    <h1>Sip Station</h1>
+    <p>Choose how frequently you want a reminder to drink water.</p>
+    <div class="button-group">
+      <button id='15min' value='15'>15 Minutes</button>
+      <button id='30min' value='30'>30 Minutes</button>
+      <button id='1hr' value='60'>1 Hour</button>
+      <button id='turnOff'>Turn off</button>
+    </div>
+    <button id='sampleSecond' value='0.1'>Sample</button>
+    <!-- link to non-persistent background script -->
+    <script src="popup.js"></script>
   </body>
 </html>

@@ -1,13 +1,21 @@
 {
   "name": "Sip Station",
-  "description": "A simple alarm extension to remind you to drink water",
+  "description": "A popup reminder to drink water throughout the day.",
   "version": "1.0",
-  "manifest_version": 3,
+  "manifest_version": 2,
+  "permissions": ["alarms", "notifications", "storage"],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
-  "permissions": ["alarms"],
-  "action": {
+  "browser_action": {
+    "default_title": "SipStation water reminder event",
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "water16.png",
+    "32": "water32.png",
+    "64": "water64.png",
+    "128": "water128.png"
   }
 }
