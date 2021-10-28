@@ -2,14 +2,11 @@ chrome.alarms.onAlarm.addListener(function() {
   chrome.browserAction.setBadgeText({text: ''});
   const options = {
     type:     'basic',
-    iconUrl:  'images/water128.png',
+    iconUrl:  'images/water256.png',
     title:    'Sip Station',
     message:  'Drink water!',
     requireInteraction: true,
-    priority: 0,
-    buttons: [
-      {title: 'Turn off'}
-    ]
+    priority: 0
   }
 
   chrome.notifications.create(options)

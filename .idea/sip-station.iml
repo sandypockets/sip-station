@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/chrome" level="application" />
+    <orderEntry type="library" name="@types/tailwindcss" level="application" />
+    <orderEntry type="library" name="@types/react" level="application" />
   </component>
 </module>

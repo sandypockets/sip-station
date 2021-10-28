@@ -1,7 +1,7 @@
 {
   "name": "Sip Station",
   "description": "A popup reminder to drink water throughout the day.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
@@ -14,8 +14,14 @@
   },
   "icons": {
     "16": "images/water16.png",
+    "24": "images/water24.png",
     "32": "images/water32.png",
+    "48": "images/water48.png",
     "64": "images/water64.png",
-    "128": "images/water128.png"
+    "96": "images/water96.png",
+    "128": "images/water128.png",
+    "192": "images/water192.png",
+    "256": "images/water265.png",
+    "512": "images/water512.png"
   }
 }
