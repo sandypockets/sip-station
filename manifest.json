@@ -1,7 +1,7 @@
 {
   "name": "Sip Station",
   "description": "A popup reminder to drink water throughout the day.",
-  "version": "1.1",
+  "version": "1.2",
   "manifest_version": 2,
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
@@ -9,7 +9,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "SipStation water reminder event",
+    "default_title": "SipStation 1.2",
     "default_popup": "popup.html"
   },
   "icons": {
@@ -21,7 +21,7 @@
     "96": "images/water96.png",
     "128": "images/water128.png",
     "192": "images/water192.png",
-    "256": "images/water265.png",
+    "256": "images/water256.png",
     "512": "images/water512.png"
   }
 }
