@@ -1,7 +1,7 @@
 {
   "name": "Sip Station",
   "description": "A popup reminder to drink water throughout the day.",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 2,
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
